@@ -149,8 +149,6 @@ namespace ATM
                                             Console.WriteLine($"The maximum balance in you system is: {maximumNumberToFind} in {whoIsThis}'s account");
                                             Console.WriteLine("------------------------------------------");
                                             goto pageAfterLogin;
-
-                                        
                                         }
                                        
                                         else if(option == "4")
@@ -164,7 +162,6 @@ namespace ATM
                                         Console.WriteLine($"The arithmetic mean is: {arithmeticMean}");
                                         goto pageAfterLogin;
                                         }
-
                                         else if(option == "7")
                                         {
                                             userIsLogged = false;
@@ -193,7 +190,7 @@ namespace ATM
                                         withdrawmenu:
                                             Console.WriteLine("Introduce the amount");
                                             withdrawValue = Convert.ToInt32(Console.ReadLine());
-                                        if ((user.balance - withdrawValue) < 0)
+                                            if ((user.balance - withdrawValue) < 0)
                                         {
                                             Console.WriteLine("You dont have sufficient funds");
                                             goto withdrawmenu;

@@ -13,4 +13,5 @@ namespace ATM
         public string surname;
         public string phone;    
     }
+
 }

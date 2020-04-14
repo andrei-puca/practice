@@ -1,0 +1,14 @@
+1. Se dau n numere întregi. Calculaţi cel mai mare dintre cele n numere date. Cititi de la tastatura numarul n si cele n numere. 
+2. Să se scrie un program care citeşte de la tastatură un număr natural şi verifică dacă numărul este par sau impar. 
+3. Se dau trei numere naturale a b x. Să se verifice dacă numărul x aparţine intervalului [a,b]. 
+4. Calculaţi ultima cifră a sumei a două numere naturale. Cititi cele doua numere de la tastatura. 
+5. Se dă un număr natural n. Să se determine cele mai mari două numere impare, mai mici decât n. Cititi numarul n de la tastatura. 
+6. Se citesc de la tastatura 5 numere distincte. Să se determine suma celor mai mari 3 dintre ele. 
+7. Să se scrie un program care să determine suma cifrelor unui număr natural citit de la tastatură. 
+8. Se dă un număr natural n. Afişaţi pe o linie primele n numere naturale nenule în ordine crescătoare, iar pe linia următoare aceleaşi numere, dar în ordine descrescătoare. 
+9. Se citesc numere de la tastatură până la apariţia lui zero. Să se determine câte dintre ele erau pare. 
+10. Se dă un număr natural n. Să se afişeze în ordine crescătoare, primii n termeni ai şirului lui Fibonacci. 
+11. Se citeste un numar de la tastatura. Sa se determine cate cifre pare are numarul. 
+12. Se dau doua numere naturale n si p. Calculati cea mai mare putere a lui n mai mica sau egala cu p. 
+13. Sa se scrie un program care citeste trei numere reale si verifica daca acestea pot fi lungimile laturilor unui triunghi. 
+14. Se da numarul natural n. Determinati daca n se poate scrie ca suma a doua patrate perfecte. Daca da, afisati cele doua patrate perfecte, in ordine crescatoare. In caz contrar, afisati mesajul NU. 

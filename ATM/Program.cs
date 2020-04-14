@@ -23,9 +23,6 @@ namespace ATM
             users.Add(new User { username = "Adrian", pin = "4321", balance = 300, surname = "john", name = "kevinache", phone = "0799123123" });
 
 
-           
-
-
 
             var minimumNumberToFind = users[0].balance;
             var maximumNumberToFind = users[0].balance;

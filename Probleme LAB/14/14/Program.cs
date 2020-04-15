@@ -4,30 +4,40 @@ namespace _14
 {
     class Program
     {
-        // function to check if there exist two 
-        // numbers sum of whose squares is n 
-        static bool sumSquare(int n)
-        {
-            for (long i = 1; i * i <= n; i++)
-                for (long j = 1; j * j <= n; j++)
-                    if (i * i + j * j == n)
-                    {
-                        Console.Write(i + "^2 + "
-                                        + j + "^2");
-                        return true;
-                    }
-            return false;
-        }
-
-        // Driver Code 
         public static void Main(String[] args)
         {
-            int n = 25;
-            if (sumSquare(n))
-                Console.Write("\nYes");
+            bool checkPerfectSquare = false;
+            int i, j;
+            int firstNumber = 0;
+            int secondNumber = 0;
+            int holdNumber;
+            int givenNumber = Convert.ToInt32(Console.ReadLine());
+
+            for (i = 1; i <= givenNumber; i++)
+            {
+                for (j = 1; j <= givenNumber; j++)
+                    if (i * i + j * j == givenNumber)
+                    {
+                        firstNumber = i;
+                        secondNumber = j;
+                        checkPerfectSquare = true;
+                        break;
+                    }
+            }
+            if (checkPerfectSquare)
+            {
+                if (firstNumber > secondNumber)
+                {
+                    holdNumber = secondNumber;
+                    secondNumber = firstNumber;
+                    firstNumber = holdNumber;
+                }
+                Console.WriteLine($"The number can be wrote as {firstNumber}^2 + {secondNumber}^2");
+            }
             else
-                Console.Write("\nNo");
-        }
+            {
+                Console.WriteLine("NO");
+            }
+         }
     }
 }
-// This code is contributed by Smitha Dinesh Semwal. 

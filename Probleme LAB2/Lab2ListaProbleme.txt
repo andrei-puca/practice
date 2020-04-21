@@ -1,0 +1,18 @@
+2.1  Se dau n numere naturale. Calculaţi suma dintre cel mai mare și cel mai mic număr dat.
+2.2  Să se scrie un program care să determine produsul cifrelor impare ale unui număr natural citit de la tastatură.
+2.3  Se dă un număr natural n. Să se afişeze în ordine crescătoare, termenii şirului lui Fibonacci mai mici sau egali cu n.
+2.4  Se citește un număr natural n. Să se determine câți divizori pari are acest număr.
+2.5  Se citește un număr natural n. Să se determine suma divizorilor pari ai săi.
+2.6  Să se scrie un program care să determine numărul de cifre ale unui număr natural citit de la tastatură.
+2.7  Să se scrie un program care să determine cea mai mare cifră a unui număr natural citit de la tastatură.
+2.8  Să se scrie un program care să determine oglinditul unui număr natural citit de la tastatură. (citim spre ex 1234, deci vom afisa 4321)
+2.9  Să se scrie un program care să determine ultima cifră pară a unui număr natural citit de la tastatură.
+2.10 Se dă n. Afișați un triunghi cu latura de n steluțe gol înăuntru.
+	Exemplu:
+	n = 5, rezulta:
+
+		*
+	   * *
+	  *   *
+	 *     *
+	* * * * *
